@@ -1,7 +1,9 @@
 tasks: []
 services:
   - name: rte
-    image: golang:1.18
+    build:
+      context: .
+      dockerfile: .Dockerfile.ca
     env: []
     volumeMounts: []
     limits:
