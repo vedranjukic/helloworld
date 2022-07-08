@@ -1,0 +1,10 @@
+tasks: []
+services:
+  - name: rte
+    image: golang:1.18
+    env: []
+    volumeMounts: []
+    limits:
+      cpu: 2
+      memory: 4
+volumes: []
