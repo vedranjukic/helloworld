@@ -9,4 +9,11 @@ services:
     limits:
       cpu: 2
       memory: 4
+  - name: redis
+    image: redis
+    env: []
+    volumeMounts: []
+    limits:
+      cpu: 1
+      memory: 2
 volumes: []
